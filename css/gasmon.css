@@ -1,0 +1,264 @@
+#nando:after {
+    font: 800 100px system-ui;
+    content: counter(count);
+    animation: counter 5s linear infinite alternate;
+    counter-reset: count 0;
+}
+
+@keyframes counter {
+    0% {
+        counter-increment: count 79;
+    }
+
+    10% {
+        counter-increment: count 81;
+    }
+
+    20% {
+        counter-increment: count 82;
+    }
+
+    30% {
+        counter-increment: count 80;
+    }
+
+    40% {
+        counter-increment: count 78;
+    }
+
+    50% {
+        counter-increment: count 81;
+    }
+
+    60% {
+        counter-increment: count 80;
+    }
+
+    70% {
+        counter-increment: count 83;
+    }
+
+    80% {
+        counter-increment: count 81;
+    }
+
+    90% {
+        counter-increment: count 82;
+    }
+
+    100% {
+        counter-increment: count 80;
+    }
+}
+
+#nando2:after {
+    font: 800 100px system-ui;
+    content: counter(count);
+    animation: kazekage 15s linear infinite alternate;
+    counter-reset: count 0;
+}
+
+@keyframes kazekage {
+    0% {
+        counter-increment: count 178;
+    }
+
+    10% {
+        counter-increment: count 183;
+    }
+
+    20% {
+        counter-increment: count 181;
+    }
+
+    30% {
+        counter-increment: count 180;
+    }
+
+    40% {
+        counter-increment: count 179;
+    }
+
+    50% {
+        counter-increment: count 181;
+    }
+
+    60% {
+        counter-increment: count 180;
+    }
+
+    70% {
+        counter-increment: count 183;
+    }
+
+    80% {
+        counter-increment: count 181;
+    }
+
+    90% {
+        counter-increment: count 182;
+    }
+
+    100% {
+        counter-increment: count 180;
+    }
+}
+
+#nando3:after {
+    font: 800 100px system-ui;
+    content: counter(count);
+    animation: kazekag 2s linear infinite alternate;
+    counter-reset: count 0;
+}
+
+@keyframes kazekag {
+    0% {
+        counter-increment: count 18;
+    }
+
+    10% {
+        counter-increment: count 13;
+    }
+
+    20% {
+        counter-increment: count 11;
+    }
+
+    30% {
+        counter-increment: count 10;
+    }
+
+    40% {
+        counter-increment: count 19;
+    }
+
+    50% {
+        counter-increment: count 11;
+    }
+
+    60% {
+        counter-increment: count 10;
+    }
+
+    70% {
+        counter-increment: count 13;
+    }
+
+    80% {
+        counter-increment: count 11;
+    }
+
+    90% {
+        counter-increment: count 18;
+    }
+
+    100% {
+        counter-increment: count 10;
+    }
+}
+
+#nando4:after {
+    font: 800 100px system-ui;
+    content: counter(count);
+    animation: kazeka 2s linear infinite alternate;
+    counter-reset: count 0;
+}
+
+@keyframes kazeka {
+    0% {
+        counter-increment: count 2;
+    }
+
+    10% {
+        counter-increment: count 3;
+    }
+
+    20% {
+        counter-increment: count 3;
+    }
+
+    30% {
+        counter-increment: count 2;
+    }
+
+    40% {
+        counter-increment: count 2;
+    }
+
+    50% {
+        counter-increment: count 2;
+    }
+
+    60% {
+        counter-increment: count 4;
+    }
+
+    70% {
+        counter-increment: count 1;
+    }
+
+    80% {
+        counter-increment: count 2;
+    }
+
+    90% {
+        counter-increment: count 3;
+    }
+
+    100% {
+        counter-increment: count 3;
+    }
+}
+
+#nando5:after {
+    font: 800 100px system-ui;
+    content: counter(count);
+    animation: kazeka 1s linear infinite alternate;
+    counter-reset: count 0;
+}
+
+@keyframes kazeka {
+    0% {
+        counter-increment: count 40;
+    }
+
+    10% {
+        counter-increment: count 48;
+    }
+
+    20% {
+        counter-increment: count 50;
+    }
+
+    30% {
+        counter-increment: count 52;
+    }
+
+    40% {
+        counter-increment: count 50;
+    }
+
+    50% {
+        counter-increment: count 51;
+    }
+
+    60% {
+        counter-increment: count 53;
+    }
+
+    70% {
+        counter-increment: count 52;
+    }
+
+    80% {
+        counter-increment: count 51;
+    }
+
+    90% {
+        counter-increment: count 53;
+    }
+
+    100% {
+        counter-increment: count 50;
+    }
+}
