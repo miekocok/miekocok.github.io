@@ -8,18 +8,111 @@
     <link rel="stylesheet" href="css/gasmon.css" />
     <title>Document</title>
 </head>
-<nav class="navbar navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Monitoring Gas Sabar</a>
-  </nav>
-<body class="bg-secondary">
+<!-- <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand text-center" href="#">Monitoring Gas Sabar</a>
+  </nav> -->
+
+<body class="bg-success">
+
+    <h1 class="text-center">Monitoring & Pengendalian Smart plant BIomethane</h1>
     <div class="container-fluid">
         <div class="row">
                 
                 <div class="col-md-3">
-                    <div class="card mt-3 mr-2 ml-2 mb-2">
+                    <div class="card mt-3  ml-2 mb-2">
                         <div class="card-body">
                             
-                        <h1 class="card-title" >Level H2S</h1>
+                        <h2 class="card-title" >KAPASITAS TANGKI</h2>
+                        <p class="card-text" id="nando6"></p>
+                        <p><strong>Liter</strong></p>
+                        
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="card mt-3  ml-2 mb-2">
+                        <div class="card-body">
+                            
+                        <h2 class="card-title" >TEKANAN BIODIGESTER</h2>
+                        <p class="card-text" id="nando2">   </p>
+                        <p><strong>bar</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mt-3  ml-2 mb-2">
+                        <div class="card-body">
+                            
+                        <h2 class="card-title" >LEVEL TEMPERATUR</h2>
+                        <p class="card-text" id="nando3">   </p>
+                        <p><strong>C</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mt-3  ml-2 mb-2">
+                        <div class="card-body">
+                            
+                        <h2 class="card-title" >KECEPATAN MOTOR PENGADUK</h2>
+                        <p class="card-text" id="nando4">   </p>
+                        <p><strong>RPM</strong></p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="row">
+                
+                <div class="col-md-3">
+                    <div class="card mt-3  ml-2 mb-2">
+                        <div class="card-body">
+                            
+                        <h2 class="card-title" >LEVEL TANGKI     </h2>
+                        <p class="card-text" id="nando"></p>
+                        <p><strong>LITER</strong></p>
+                        
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="card mt-3  ml-2 mb-2">
+                        <div class="card-body">
+                            
+                        <h2 class="card-title" >TEKANAN GAS STORAGE</h2>
+                        <p class="card-text" id="nando2">   </p>
+                        <p><strong>bar</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mt-3  ml-2 mb-2">
+                        <div class="card-body">
+                            
+                        <h2 class="card-title" >LEVEL pH(KEASAMAN)</h2>
+                        <p class="card-text" id="nando3">   </p>
+                        <p><strong>mg/cm2</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mt-3  ml-2 mb-2">
+                        <div class="card-body">
+                            
+                        <h2 class="card-title" >LEVEL O2</h2>
+                        <p class="card-text" id="nando4">   </p>
+                        <p><strong>mg/cm2</strong></p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="row">
+                
+                <div class="col-md-3">
+                    <div class="card mt-3  ml-2 mb-2">
+                        <div class="card-body">
+                            
+                        <h2 class="card-title" >Level H2S</h2>
                         <p class="card-text" id="nando"></p>
                         <p><strong>BAR</strong></p>
                         
@@ -28,30 +121,30 @@
 
                 </div>
                 <div class="col-md-3">
-                    <div class="card mt-3 mr-2 ml-2 mb-2">
+                    <div class="card mt-3  ml-2 mb-2">
                         <div class="card-body">
                             
-                        <h1 class="card-title" >Level CO2</h1>
+                        <h2 class="card-title" >Level CO2</h2>
                         <p class="card-text" id="nando2">   </p>
                         <p><strong>mg/cm2</strong></p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card mt-3 mr-2 ml-2 mb-2">
+                    <div class="card mt-3  ml-2 mb-2">
                         <div class="card-body">
                             
-                        <h1 class="card-title" >Level CH4</h1>
+                        <h2 class="card-title" >Level CH4</h2>
                         <p class="card-text" id="nando3">   </p>
                         <p><strong>mg/cm2</strong></p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3">
-                    <div class="card mt-3 mr-2 ml-2 mb-2">
+                    <div class="card mt-3  ml-2 mb-2">
                         <div class="card-body">
                             
-                        <h1 class="card-title" >Level CO</h1>
+                        <h2 class="card-title" >Level CO</h2>
                         <p class="card-text" id="nando4">   </p>
                         <p><strong>mg/cm2</strong></p>
                         </div>
@@ -60,10 +153,10 @@
         </div>
         <div class="row">        
             <div class="col-md-6">
-                <div class="card mt-3 mr-2 ml-2 mb-2">
+                <div class="card mt-3  ml-2 mb-2">
                     <div class="card-body">
                         
-                    <h1 class="card-title" >Tekanan tabung 2</h1>
+                    <h2 class="card-title" >DAYS</h2>
                     <p class="card-text" id="nando5"></p>
                     <p><strong>BAR</strong></p>
                     
@@ -72,12 +165,14 @@
 
             </div>
             <div class="col-md-6">
-                <div class="card mt-3 mr-2 ml-2 mb-2">
+                <div class="card mt-3  ml-2 mb-2">
                     <div class="card-body">
                         
-                    <h1 class="card-title" >Tekanan tabung 3</h1>
-                    <p class="card-text" id="nando2">   </p>
-                    <p><strong>mg/cm2</strong></p>
+                    <h2 class="card-title" >PLAN</h2>
+                    <p class="card-text" id="">Start at  : 17-10-2021   </p>
+                    <p class="card-text" id="">Finish at : 20-11-2021   </p>
+                    
+                    <!-- <p><strong>mg/cm2</strong></p> -->
                     </div>
                 </div>
             </div>
