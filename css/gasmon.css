@@ -1,5 +1,5 @@
 #nando:after {
-    font: 800 100px system-ui;
+    font: 800 50px system-ui;
     content: counter(count);
     animation: counter 5s linear infinite alternate;
     counter-reset: count 0;
@@ -52,7 +52,7 @@
 }
 
 #nando2:after {
-    font: 800 100px system-ui;
+    font: 800 50px system-ui;
     content: counter(count);
     animation: kazekage 15s linear infinite alternate;
     counter-reset: count 0;
@@ -105,7 +105,7 @@
 }
 
 #nando3:after {
-    font: 800 100px system-ui;
+    font: 800 50px system-ui;
     content: counter(count);
     animation: kazekag 2s linear infinite alternate;
     counter-reset: count 0;
@@ -158,7 +158,7 @@
 }
 
 #nando4:after {
-    font: 800 100px system-ui;
+    font: 800 50px system-ui;
     content: counter(count);
     animation: kazeka 2s linear infinite alternate;
     counter-reset: count 0;
@@ -211,7 +211,7 @@
 }
 
 #nando5:after {
-    font: 800 100px system-ui;
+    font: 800 50px system-ui;
     content: counter(count);
     animation: kazeka 1s linear infinite alternate;
     counter-reset: count 0;
@@ -260,5 +260,26 @@
 
     100% {
         counter-increment: count 50;
+    }
+}
+
+#nando6:after {
+    font: 800 50px system-ui;
+    content: counter(count);
+    animation: kazekas 1s linear infinite alternate;
+    counter-reset: count 0;
+}
+
+@keyframes kazekas {
+    0% {
+        counter-increment: count 8;
+    }
+
+    90% {
+        counter-increment: count 8;
+    }
+
+    100% {
+        counter-increment: count 8;
     }
 }
